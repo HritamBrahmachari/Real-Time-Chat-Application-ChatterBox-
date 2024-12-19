@@ -17,7 +17,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json()); 
 app.use(cookieParser());
 const corsOption={
-    origin:'http://localhost:3000',
+    origin:'https://illustrious-lebkuchen-30a599.netlify.app',
     credentials:true
 };
 app.use(cors(corsOption)); 
