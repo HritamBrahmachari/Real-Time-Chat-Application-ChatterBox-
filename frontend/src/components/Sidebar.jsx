@@ -44,17 +44,17 @@ const Sidebar = () => {
                 <input
                     value={search}
                     onChange={(e)=>setSearch(e.target.value)}
-                    className='input input-bordered rounded-md' type="text"
+                    className='input input-bordered rounded-md bg-green-950 placeholder:text-white' type="text"
                     placeholder='Search...'
                 />
-                <button type='submit' className='btn bg-zinc-700 text-white'>
+                <button type='submit' className='btn bg-green-950 text-white'>
                     <BiSearchAlt2 className='w-6 h-6 outline-none'/>
                 </button>
             </form>
             <div className="divider px-3"></div> 
             <OtherUsers/> 
             <div className='mt-2'>
-                <button onClick={logoutHandler} className='btn btn-sm'>Logout</button>
+                <button onClick={logoutHandler} className='btn btn-sm bg-green-950 text-green-100'>Logout</button>
             </div>
         </div>
     )

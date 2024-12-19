@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 body {
-  background: url(../public/bg.avif);
+  background: url(../public/green.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -18,7 +18,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+div.chat-bubble{
 
+  background-color: rgb(38, 84, 38);
+  color: white
+}
 
 ::-webkit-scrollbar {
   /* Customize the scrollbar width */
@@ -32,6 +36,6 @@ code {
 
 ::-webkit-scrollbar-thumb {
   /* Customize the scrollbar thumb */
-  background: #1b1b1b;
+  background: #000000;
   border-radius: 10px;
 }
