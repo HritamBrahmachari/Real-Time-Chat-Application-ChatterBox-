@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/api/*"
+  to = "https://messaging-app-1-4gsh.onrender.com/api/:splat"
+  status = 200
+  force = true

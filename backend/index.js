@@ -17,7 +17,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json()); 
 app.use(cookieParser());
 const corsOption={
-    origin:'https://messaging-app-1-4gsh.onrender.com/',
+    origin:'https://stirring-starship-e41ab4.netlify.app/',
     credentials:true
 };
 app.use(cors(corsOption)); 
