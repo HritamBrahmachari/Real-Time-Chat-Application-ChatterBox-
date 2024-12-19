@@ -17,7 +17,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json()); 
 app.use(cookieParser());
 const corsOption={
-    origin:'https://frolicking-lokum-d325fc.netlify.app',
+    origin:'https://illustrious-lebkuchen-30a599.netlify.app/login',
     credentials:true
 };
 app.use(cors(corsOption)); 
