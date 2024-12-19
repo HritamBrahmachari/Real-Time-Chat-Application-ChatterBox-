@@ -17,7 +17,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json()); 
 app.use(cookieParser());
 const corsOption={
-    origin:'https://stirring-starship-e41ab4.netlify.app/',
+    origin:'https://frolicking-lokum-d325fc.netlify.app',
     credentials:true
 };
 app.use(cors(corsOption)); 
